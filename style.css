@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+
+.transport-section{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.transport-section h1{
+    text-align: center;
+    padding: 25px 0px;;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+   flex-wrap: wrap;
+   display: flex;
+ 
+  
+}
+
+
+.transport-items{
+    flex-basis: 25%;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+    background: rgb(203, 42, 115);
+    box-shadow: 0px 0px 10px 3px lightgray;
+    background:white;
+}
+
+.trasport-items p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.transport-items button{
+    padding: 10px  20px;
+    border: none;
+    color:white;
+    background: blue;/**Button color**/
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.trasport-items:hover{
+    background: white;
+}
+
+.transport-items:hover h3, .training-items:hover p{
+    color: black;  /** name color**/
+}
+
+.transport-items:hover{
+    background: white;/**background color change**/
+    color:black;/**text color afer changing**/
+}
+
+
+
+@media only screen and  (min-width: 200px) and (max-width:767px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .transport-items{
+        margin: 10px;
+    }
+
+}
+    
